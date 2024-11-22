@@ -123,6 +123,7 @@
             Controls.Add(dataGridViewEmpleados);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormGestionarEmpleados";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormGestionarEmpleados";

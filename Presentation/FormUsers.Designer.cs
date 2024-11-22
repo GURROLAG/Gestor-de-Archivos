@@ -111,6 +111,7 @@
             Controls.Add(btnAgregar);
             Controls.Add(dgvUsers);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;

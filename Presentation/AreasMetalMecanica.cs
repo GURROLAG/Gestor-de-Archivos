@@ -9,30 +9,7 @@ namespace Presentation
         public AreasMetalMecanica()
         {
             InitializeComponent();
-            VerificarAccesoAdministrador(); // Llamar al método para verificar acceso
-        }
-
-        private void VerificarAccesoAdministrador()
-        {
-            // Verificar si el usuario actual está configurado
-            if (UserCache.CurrentUser != null)
-            {
-                // Habilitar o deshabilitar el botón según el rol
-                if (UserCache.CurrentUser.Rol.Equals("Administrador", StringComparison.OrdinalIgnoreCase))
-                {
-                    btnVerEmpleados.Visible = true;  // Mostrar el botón si es administrador
-                    btnVerEmpleados.Enabled = true;   // Habilitar el botón
-                }
-                else
-                {
-                    btnVerEmpleados.Visible = false;  // Ocultar el botón si no es administrador
-                    btnVerEmpleados.Enabled = false;   // También puedes deshabilitarlo si es necesario
-                }
-            }
-            else
-            {
-                btnVerEmpleados.Visible = false; // Ocultar el botón si no hay usuario
-            }
+            
         }
 
 

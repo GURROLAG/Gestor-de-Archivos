@@ -201,6 +201,7 @@
             Controls.Add(label2);
             Controls.Add(btnGasket);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AreasMetalMecanica";
             Text = "AreasMetalMecanica";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

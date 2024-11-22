@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgregarUsuario));
             label1 = new Label();
             txtNombreUsuario = new TextBox();
             txtPassword = new TextBox();
@@ -167,6 +168,7 @@
             Controls.Add(txtNombreUsuario);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormAgregarUsuario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAgregarUsuario";

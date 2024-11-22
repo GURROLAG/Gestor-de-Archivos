@@ -90,6 +90,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormAlmacenPL";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAlmacenPL";

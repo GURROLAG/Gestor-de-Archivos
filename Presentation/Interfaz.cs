@@ -224,7 +224,6 @@ namespace Presentation
             switch (rolActual)
             {
                 case "UsuarioPlástico":
-                    btnExamenesMM.Enabled = true; // Puede ver el inicio
                     btnPL.Enabled = true;     // Puede acceder a Inyección Plástica
                     break;
 
@@ -250,7 +249,7 @@ namespace Presentation
                     break;
 
                 case "GerenciaPlásticos":
-                    btnExamenesMM.Enabled = true;  // Siempre habilitado
+                    
                     btnPL.Enabled = true;      // Puede acceder a Inyección Plástica
                                                // btnMetal y btnUsuarios ya están en false
                     break;

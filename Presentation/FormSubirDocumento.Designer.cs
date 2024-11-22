@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSubirDocumento));
             label1 = new Label();
             btnSeleccionarArchivo = new Button();
             txtRutaArchivo = new TextBox();
@@ -106,6 +107,7 @@
             Controls.Add(btnSeleccionarArchivo);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormSubirDocumento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormSubirDocumento";

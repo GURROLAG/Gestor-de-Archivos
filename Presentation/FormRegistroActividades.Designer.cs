@@ -150,6 +150,7 @@
             Controls.Add(dataGridViewActividades);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormRegistroActividades";
             Text = "FormRegistroActividades";
             ((System.ComponentModel.ISupportInitialize)dataGridViewActividades).EndInit();

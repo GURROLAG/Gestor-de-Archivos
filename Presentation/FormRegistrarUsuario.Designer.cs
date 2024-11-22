@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistrarUsuario));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -172,6 +173,7 @@
             Controls.Add(label1);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormRegistrarUsuario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormRegistrarUsuario";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgregarDocumento));
             btnCancelar = new Button();
             btnSubir = new Button();
             txtNombreDocumento = new TextBox();
@@ -107,6 +108,7 @@
             Controls.Add(label1);
             ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormAgregarDocumento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAgregarDocumento";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditarDocumento));
             label1 = new Label();
             txtNuevoNombre = new TextBox();
             label2 = new Label();
@@ -102,6 +103,7 @@
             Controls.Add(txtNuevoNombre);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormEditarDocumento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormEditarDocumento";

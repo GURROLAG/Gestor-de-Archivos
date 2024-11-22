@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditarCarpeta));
             label1 = new Label();
             cmbCarpetas = new ComboBox();
             txtNuevoNombre = new TextBox();
@@ -55,7 +56,6 @@
             cmbCarpetas.Name = "cmbCarpetas";
             cmbCarpetas.Size = new Size(218, 23);
             cmbCarpetas.TabIndex = 2;
-          
             // 
             // txtNuevoNombre
             // 
@@ -63,7 +63,6 @@
             txtNuevoNombre.Name = "txtNuevoNombre";
             txtNuevoNombre.Size = new Size(218, 23);
             txtNuevoNombre.TabIndex = 3;
-       
             // 
             // label2
             // 
@@ -74,7 +73,6 @@
             label2.Size = new Size(231, 22);
             label2.TabIndex = 4;
             label2.Text = "ESCOGA UNA CARPETA";
-            
             // 
             // label3
             // 
@@ -85,7 +83,6 @@
             label3.Size = new Size(189, 22);
             label3.TabIndex = 5;
             label3.Text = "CAMBIAR NOMBRE";
-         
             // 
             // btnGuardar
             // 
@@ -129,6 +126,7 @@
             Controls.Add(cmbCarpetas);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormEditarCarpeta";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormEditarCarpeta";

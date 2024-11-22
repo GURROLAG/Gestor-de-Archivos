@@ -103,6 +103,7 @@
             Controls.Add(comboBoxExamenes);
             Controls.Add(dataGridViewEmpleados);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormExamenes";
             Text = "FormExamenes";
             Load += FormExamenes_Load;

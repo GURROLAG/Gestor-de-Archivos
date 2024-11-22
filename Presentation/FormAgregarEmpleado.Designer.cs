@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgregarEmpleado));
             label2 = new Label();
             label1 = new Label();
             txtNombreEmpleado = new TextBox();
@@ -225,6 +226,7 @@
             Controls.Add(label1);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormAgregarEmpleado";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAgregarEmpleado";

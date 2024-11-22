@@ -201,6 +201,7 @@
             Controls.Add(txtuser);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Login";
             Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;

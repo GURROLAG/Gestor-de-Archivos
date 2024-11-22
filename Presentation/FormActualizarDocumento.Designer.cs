@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormActualizarDocumento));
             btnCancelar = new Button();
             btnGuardar = new Button();
             label2 = new Label();
@@ -101,6 +102,7 @@
             Controls.Add(txtNombreDocumento);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormActualizarDocumento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormActualizarDocumento";

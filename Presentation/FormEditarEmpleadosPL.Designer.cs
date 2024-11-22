@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditarEmpleadosPL));
             btnCancelar = new Button();
             btnGuardarCambios = new Button();
             cboArea = new ComboBox();
@@ -225,6 +226,7 @@
             Controls.Add(label1);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormEditarEmpleadosPL";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormEditarEmpleadoPL";

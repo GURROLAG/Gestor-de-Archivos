@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormActualizarCarpeta));
             button1 = new Button();
             btnGuardar = new Button();
             label3 = new Label();
@@ -102,6 +103,7 @@
             Controls.Add(txtNombreCarpeta);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormActualizarCarpeta";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormActualizarCarpeta";

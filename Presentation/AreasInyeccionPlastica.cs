@@ -75,5 +75,10 @@ namespace Presentation
             FormGestionarEmpleadosPL formGestionarEmpleadosPL = new FormGestionarEmpleadosPL();
             formGestionarEmpleadosPL.Show();
         }
+
+        private void AreasInyeccionPlastica_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

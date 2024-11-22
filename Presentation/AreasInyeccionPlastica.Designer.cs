@@ -218,8 +218,10 @@
             Controls.Add(btnVerEmpleados);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AreasInyeccionPlastica";
             Text = "AreasInyeccionPlastica";
+            Load += AreasInyeccionPlastica_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

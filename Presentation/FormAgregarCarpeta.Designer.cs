@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgregarCarpeta));
             label1 = new Label();
             label2 = new Label();
             txtNombreCarpeta = new TextBox();
@@ -125,6 +126,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormAgregarCarpeta";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAgregarCarpeta";

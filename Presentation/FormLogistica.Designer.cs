@@ -91,6 +91,7 @@
             Controls.Add(dataGridViewEmpleados);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormLogistica";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormLogistica";
