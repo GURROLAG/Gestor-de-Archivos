@@ -60,6 +60,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
             label1.Location = new Point(401, 9);
             label1.Name = "label1";
             label1.Size = new Size(118, 22);
@@ -68,10 +69,11 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Maroon;
+            button1.BackColor = Color.Black;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
             button1.Location = new Point(401, 441);
             button1.Name = "button1";
             button1.Size = new Size(119, 33);
@@ -95,7 +97,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateGray;
+            BackColor = Color.FromArgb(64, 0, 0);
             ClientSize = new Size(935, 497);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
